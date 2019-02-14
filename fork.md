@@ -5,13 +5,12 @@ permalink: /fork/
 ---
 ### Jekyll New by Barry Clark
 Follow [@barryclark][barryclark] and fork projetc too.
-Thanks a loot, Barry!
+Thanks a loot, Barry!!
 
 ### List of greats (Brothers)
-[@UnkL4b][UnkL4b]
-[@Rogy153][Rogy153]
+[@UnkL4b][UnkL4b] | 
+[@Rogy153][Rogy153] |
 [@SlayerOwner][SLAYEROWNER]
-
 
 [barryclark]: https://github.com/barryclark/jekyll-now
 [UnkL4b]: https://unkl4b.github.io/
