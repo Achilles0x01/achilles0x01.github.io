@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Programming Python in Atom"
+author: Achilles
 ---
 
 Há um tempo eu venho utilizando o Atom como minha principal interface pra programação, ela é bem boa na verdade, eu tinha centro preconceito, mas eu decidi usar e ver qual é. Acabei me surpreendendo com a quantidade de pacotes que ela possui (about python of course).
