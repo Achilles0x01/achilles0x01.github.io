@@ -59,8 +59,8 @@ else:
 casa = float(input('Qual o valor da casa R$'))
 salario = float(input('Qual seu salário R$'))
 anos = int(input('Em quantos anos você pretende pagar? '))
-divd = house / (years * 12)
-mini = salary * 30 / 100
+divd = casa / (anos * 12)
+mini = salario * 30 / 100
 if divd <= mini:
     print('Empréstimo aprovado!')
 else:
