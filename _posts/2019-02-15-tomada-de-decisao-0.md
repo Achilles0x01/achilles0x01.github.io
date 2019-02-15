@@ -3,7 +3,7 @@ layout: post
 title: Tomada de decisão
 author: Achilles
 ---
-As aulas voltaram meus amigos, vou começar ou tentar postar alguns trechos de códigos relacionado as aulas na FIAP. Qualquer coisa, estamos ai.
+As aulas voltaram meus amigos, vou começar ou tentar postar alguns trechos de códigos relacionado as aulas na FIAP. Qualquer coisa estamos ai.
 
 Tomada de decisão, de forma clara: o programa vai tomar um decisão a partir de um dado que ele receber. Eu vou mostrar um exemplo prático escrito em python:
 
@@ -36,7 +36,7 @@ else:
     print('Seu número é maior de 5')
 {% endhighlight %}
 
-Veja que em python também é simples de entender o código, assim como em pseudocódigo, python é claro no que ele mostra. Essa estrutura acima é simples com e já joguei um else por que acho que ninguém usa só if. Vou mostrar mais dois códigos, mas sem comentários, estes veem logo abaixo.
+Veja que em python também é simples entender o código e assim como em pseudocódigo, python é claro no que ele mostra. Essa estrutura acima é simples e já joguei um else por que acho que ninguém usa só if. Vou mostrar mais dois códigos, mas sem comentários, estes veem logo abaixo.
 
 ###### Tá com fome?
 {% highlight python %}
