@@ -3,7 +3,7 @@ layout: post
 title: Tomada de decisão
 author: Achilles
 ---
-As aulas voltaram meus amigos, vou começar ou tentar postar alguns trechos de códigos relacionado as aulas na FIAP. Qualquer coisa estamos ai.
+As aulas voltaram meus amigos, vou começar ou tentar postar alguns trechos de códigos relacionados as aulas na FIAP. Qualquer coisa estamos ai.
 
 Tomada de decisão, de forma clara: o programa vai tomar um decisão a partir de um dado que ele receber. Eu vou mostrar um exemplo prático escrito em python:
 
@@ -69,12 +69,12 @@ else:
     print('Pois sua dívida seria superior a 30% de seu salário e sua dívida seria de R${:.2f}'.format(divd))
 {% endhighlight %}
 
-Perceba que nos três exemplos houve um input (inserção) de dados por parte do usuário, no código `ta_com_fome.py` foi solicitado um carácter, 'S' ou 'N', para que o programa pudesse tomar uma decisão com base na resposta do usuário. No `emprestimo_bancário.py` a mesma coisa ocorreu, mas, aqui foi solicitado valores númericos e a partir dai, o programa também irá tomar uma decisão.
+Perceba que nos três exemplos houve um input (inserção) de dados por parte do usuário, no código `ta_com_fome.py` foi solicitado um carácter, 'S' ou 'N', para que o programa pudesse tomar uma decisão com base na resposta do usuário. No `emprestimo_bancário.py` a mesma coisa ocorreu, mas, aqui foi solicitado valores númericos e a partir dai o programa também irá tomar uma decisão.
 
 |`float: ponto flutuante`|||`Exemplo: 5.5`|
 |`int: númeiro inteiro  `|||`Exemplo: 1`|
 
-Veja que houve um volume alto do uso de variáveis e nesses exemplo poderia ter usado menos, mas para entender o que tá rolando, o uso de variáveis é útil para saber em que pé estamos e o que o programa está fazendo. Também utilizei comparadores (== e <=) para que o programa valide se a informação é verdade, do contrário, será falso e
+Veja que houve um volume alto no uso de variáveis e nesses exemplos poderia ter usado menos, mas para entender o que tá rolando, o uso de variáveis é útil para saber em que pé estamos e o que o programa está fazendo. Também utilizei comparadores (== e <=) para que o programa valide se a informação é verdadeira, do contrário, será falsa.
 
 |`Comparador de igualdade : ==`|
 |`Comparador menor ou igual : <=`|
@@ -117,7 +117,7 @@ else:
 |`Comparador maior ou igual: >=`|
 |`Comparador 'e': and`|
 
-Nesse exemplo acima, ao invés de usar vários if's dentro de um else e com o perigo do código ficar gigantesco, usei o chamado elif (else + if = elif == se não se) , que também irá irá checar se determinada expressão é verdadeira, do contrário o programa irá pular para o else.
+Nesse exemplo acima ao invés de usar vários if's dentro de um else e com o perigo do código ficar gigantesco, usei o chamado elif (else + if = elif == se não se) , que também irá checar se determinada expressão é verdadeira, do contrário o programa irá pular para o else.
 
 Note que else não recebe nenhum objeto para checar, já que o mesmo não precisa e não consegue realizar o processo. Uma vez que else só será executado se todas as informações anteriores forem falsas, não faria nenhum sentido haver um comparador nele.
 
