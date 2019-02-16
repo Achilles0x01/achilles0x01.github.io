@@ -43,10 +43,10 @@ Veja que em python também é simples entender o código e assim como em pseudoc
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 decisao = str(input('Escreva S se você está com fome ou escreva N se você não quer comer: '))
-if decisao==S or decisao==s:
+if decisao=='S' or decisao=='s':
     print('Eu tenho Toddynho e Trakinas, se você quiser!')
 else:
-    if decisao==N or decisao==n:
+    if decisao=='N' or decisao=='n':
         print('Beleza, se você ficar com fome me avisa!')
     else:
         print('Você precisa digitar S ou N para que eu saiba se você tem fome. Tente de novo.')
