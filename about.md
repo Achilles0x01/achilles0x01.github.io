@@ -8,9 +8,9 @@ Henrique Galdino `a.k.a` Achilles 0x01
 
 ### More Information
 
-|Noob Sith Apprentice of information security.|
-|College student at FIAP - Cyber Defense.|
-|Co-founder at Brasil Pentest project with Rogy153 (my brother).|
+|Noob Apprentice of information security.|
+|College student in FIAP - Cyber Defense.|
+|Co-founder in Brasil Pentest project with Rogy153 (my brother).|
 
 ### Contact me
 
