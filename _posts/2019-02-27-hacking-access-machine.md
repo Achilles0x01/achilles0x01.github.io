@@ -10,7 +10,7 @@ Quem conhece o Hack The Box sabe que pra ownar as máquinas, tem que quebrar um 
 
 Depois de baixar meu acesso VPN, realizei um levantamento de informações da máquina, páginas, server, essas coisas, que não vou por aqui, porque são irrelevantes para o propósito já que, não há nada além de uma página estática disponível e uma coisa a mais, que só o root pode acessar #ficaAdica.
 
-Primeira coisa, vamos realizar levantar as portas utilizando o Nmap com usuário root.
+Primeira coisa, vamos levantar as portas utilizando o Nmap com usuário root.
 
 ![Nmap](/images/nmap.png)
 
