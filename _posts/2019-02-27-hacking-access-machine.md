@@ -34,7 +34,7 @@ Ta vendo que houve um report de atenção quanto a nossa cópia, dizendo que pod
 
 ![FTP_full](/images/ftp-full.png)
 
-Sacou ali que é só colocar bin, dar o enter e fazer a cópia? Beleza, essa é a parte fácil, agora a gente tem que ver o que são esses arquivos e trata-los. De cara a gente já ver que o Access Control.zip esta com senha e para crackear vai ser complicado, então vamos pela lógica procurar a senha no backup.mdb.
+Sacou ali que é só colocar bin, dar o enter e fazer a cópia? Beleza, essa é a parte fácil, agora a gente tem que ver o que são esses arquivos e trata-los. De cara a gente já vê que o Access Control.zip esta com senha e para crackear vai ser complicado, então vamos pela lógica procurar a senha no backup.mdb.
 
 Eu particularmente nunca trabalhei com esse arquivo, então fui dar uma googlada como tratar isso aí. Tem uma ferramenta chamada mdbtools, se você esta com gnu/linux como eu, dá um apt install mdbtools para usa-lo.
 
@@ -56,7 +56,7 @@ Beleza! Essa tabela já mostra o próximo passo, se liga que tem um usuário cha
 
 ![unzip_Access](/images/unzipA.png)
 
-A senha bateu e foi possível extrair esse arquivo pst, o que me leva a mais um problema, como vou abrir essa po$%@? Eu poderia jogar o Thunderbird, mas me daria um trabalho e gastaria um tempo valioso. Por isso resolvi de novo caçar um jeito de abrir esse arquivo pelo terminal e achei um programa chamado readpst, aliás, eu já conhecia, mas nunca havia fuçado ele. Pois, bem, como instala? apt install pst-utils.
+A senha bateu e foi possível extrair esse arquivo pst, o que me leva a mais um problema, como vou abrir essa po$%@? Eu poderia jogar no Thunderbird, mas me daria um trabalho e gastaria um tempo valioso. Por isso resolvi de novo caçar um jeito de abrir esse arquivo pelo terminal e achei um programa chamado readpst, aliás, eu já conhecia, mas nunca havia fuçado ele. Pois, bem, como instala? apt install pst-utils.
 
 Já vamos usa-lo e ver qual vai ser desse arquivo.
 
