@@ -1,72 +1,20 @@
-# This file contains configuration flags to customize your site
+# Welcome to Jekyll!
+#
+# If you change something here, please rerun `jekyll serve`
 
-# Name of your site (displayed in the header)
-name: Achilles 0x01
+# Site settings
+title: ACHILLES 0x01
+description: Write-ups | Hacking & Coding.
+baseurl: "" # put subpath of your site, e.g. /blog
+url: "https://achilles0x01.github.io" # put the base hostname & protocol for your site
 
-# Short bio or description (displayed in the header)
-description: Write-ups | Hacking & Coding
-
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: /images/avatar-logo.jpeg
-
-# Flags below are optional
-
-# Icons to footer
-footer-links:
-  email: achilles0x0@pm.me
-  github: Achilles0x01
-  linkedin: null
-  rss: # RSS icon
-
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-# disqus:
-
-# Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-124258141-2
 
-# Website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
-url: https://achilles0x01.github.io/
+email: achilles0x0@pm.me
+github_username:  Achilles0x01
 
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
-
-#
-# !! You don't need to change any of the configuration flags below !!
-#
-
+paginate: 5
 permalink: /:title/
 
-# The release of Jekyll Now that you're using
-version: v1.2.0
-
-# Jekyll 3 now only supports Kramdown for Markdown
-kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
-  input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
-
-# Set the Sass partials directory, as we're using @imports
-sass:
-  style: :expanded # You might prefer to minify using :compressed
-
-# Use the following plug-ins
-plugins:
-#  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-#  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-
-# Exclude these files from your production _site
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - CNAME
+gems: [jekyll-paginate, kramdown]
+markdown: kramdown

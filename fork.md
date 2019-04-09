@@ -3,11 +3,7 @@ layout: page
 title: Fork
 permalink: /fork/
 ---
-### Jekyll New by Barry Clark
-Follow [@barryclark][barryclark] and fork project too.
-Thanks a loot, Barry!!
-
-### List of greats (Brothers)
+# List of greats (Brothers)
 [@UnkL4b][UnkL4b] |
 [@Rogy153][Rogy153] |
 [@SlayerOwner][SLAYEROWNER]

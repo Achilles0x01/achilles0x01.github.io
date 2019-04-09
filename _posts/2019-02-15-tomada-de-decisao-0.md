@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Tomada de decisão
+title: "Tomada de decisão"
 author: Achilles
 ---
 As aulas voltaram meus amigos, vou começar ou tentar postar alguns trechos de códigos relacionados as aulas na FIAP. Qualquer coisa estamos ai.
 
 Tomada de decisão, de forma clara: o programa vai tomar um decisão a partir de um dado que ele receber. Eu vou mostrar um exemplo prático escrito em python:
 
-{% highlight python %}
+```python
 x = int(input('Escreva um número de 0 à 10: '))
 # Variável X que recebe um valor do tipo inteiro do usuário
 if x <= 5:
@@ -23,10 +23,10 @@ else:
 # as instruções que nele estão contido
     print('Seu número é maior de 5')
 # Impressão copntida dentro de else
-{% endhighlight %}
+```
 
 ###### Código sem comentários
-{% highlight python %}
+```python
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 x = int(input('Escreva um número de 0 à 10: '))
@@ -34,12 +34,12 @@ if x <= 5:
     print('Você escolheu um número igual ou menor que 5')
 else:
     print('Seu número é maior de 5')
-{% endhighlight %}
+```
 
 Veja que em python também é simples entender o código e assim como em pseudocódigo, python é claro no que ele mostra. Essa estrutura acima é simples e já joguei um else por que acho que ninguém usa só if. Vou mostrar mais dois códigos, mas sem comentários, estes veem logo abaixo.
 
 ###### Tá com fome?
-{% highlight python %}
+```python
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 decisao = str(input('Escreva S se você está com fome ou escreva N se você não quer comer: '))
@@ -50,10 +50,10 @@ else:
         print('Beleza, se você ficar com fome me avisa!')
     else:
         print('Você precisa digitar S ou N para que eu saiba se você tem fome. Tente de novo.')
-{% endhighlight %}
+```
 
 ###### Empréstimo bancário
-{% highlight python %}
+```python
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 casa = float(input('Qual o valor da casa R$'))
@@ -67,7 +67,7 @@ else:
     print('Emprestimo reprovado.')
     print('Não é possível liberar empréstimo com base em seu salario de R${:.2f}'.format(salario))
     print('Pois sua dívida seria superior a 30% de seu salário e sua dívida seria de R${:.2f}'.format(divd))
-{% endhighlight %}
+```
 
 Perceba que nos três exemplos houve um input (inserção) de dados por parte do usuário, no código `ta_com_fome.py` foi solicitado um carácter, 'S' ou 'N', para que o programa pudesse tomar uma decisão com base na resposta do usuário. No `emprestimo_bancário.py` a mesma coisa ocorreu, mas, aqui foi solicitado valores númericos e a partir dai o programa também irá tomar uma decisão.
 
@@ -83,7 +83,7 @@ Veja que houve um volume alto no uso de variáveis e nesses exemplos poderia ter
 Execute os programas e veja output. O próximo exemplo foi feito pelo professor em pseudocódigo e resulta na informação com base na massa corporal do usuário.
 
 ###### Índice de massa corporal
-{% highlight python %}
+```python
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 m = float(input('Seu peso atual: ')) # exemplo: 72.8
@@ -110,7 +110,7 @@ elif imc > 40:
 	print('Obesidade Mórbida (Grau III)')
 else:
 	print('Valor não encontrado!')
-{% endhighlight %}
+```
 
 |`Comparador maior que:        >`|
 |`Comparador menor que:       <`|

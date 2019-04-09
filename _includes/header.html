@@ -1,0 +1,37 @@
+<div class="wrapper">
+
+  <center>
+    <a href="{{site.url}}{{site.baseurl}}/index.html">
+      <div class="site-title" style="font-family: Stick-no-bills; color: red;">
+        <img src="/images/478957.svg" style="height: 60px">
+        {{site.title}}
+      </div>
+    </a>
+  </center>
+
+</div>
+<div class="wrapper site-description">
+<center>  {{site.description}} </center>
+</div>
+
+<center>
+
+  <div class="wrapper">
+    <div class="trigger site-navigation">
+      <a class="page-link" href="{{site.url}}{{site.baseurl}}/index.html">HOME</a>
+
+      {% for sitePage in site.pages %}
+      {% if sitePage.title %}
+
+      <span class="exclamationMark">/</span><a class="page-link" href="{{sitePage.url | prepend: site.baseurl }}">{{sitePage.title}}</a>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+
+</center>
+
+<br>
+
+
+
